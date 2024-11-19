@@ -19,7 +19,7 @@ body {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(to right, #4CAF50, #009688);
+    background: linear-gradient(to right, #664cafb5, #001596);
     color: #fff;
     text-align: center;
     padding: 100px 20px;
@@ -71,28 +71,75 @@ body {
 
 /* Contact Section */
 .contact {
-    background: #009688;
+    background: linear-gradient(to right, #664cafb5, #001596);
     color: #fff;
-    padding: 50px 20px;
+    padding: 50px 3px;
     text-align: center;
 }
 .contact .btn {
     background: #FFD700;
     color: #333;
-    padding: 10px 20px;
+    padding: 5px 25px;
     text-decoration: none;
     font-weight: bold;
-    border-radius: 5px;
+    border-radius: 6px;
+    margin-top: 15px; /* Adjust this value as needed to move the button lower */
+    display: inline-block; /* Ensures margin is applied properly */
+}
+}/* Tech Stack Section */
+.tech-stack {
+    background: #f9f9f9; /* Light background to contrast with portfolio */
+    padding: 50px 20px;
+    text-align: center;
+}
+.tech-stack h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+    text-decoration: none;
+ 
+}
+.tech-stack p {
+    margin-bottom: 30px;
+    font-size: 1.2em;
+    color: #666;
+   
+    
+}
+.tech-stack-images {
+    display: flex;
+    background: #333333333;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap; 
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 7px;/* Ensure it adjusts for smaller screens */
+}
+.tech-stack-images img {
+    width: 100px; /* Adjust size as needed */
+    height: auto;
+    border-radius: 5px; /* Optional: Rounded edges */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+.tech-stack-images img:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
 }
 
+}
 /* Footer */
 .footer {
-    background: #333;
+    background: linear-gradient(to right, #664cafb5, #001596);
     color: #fff;
     text-align: center;
-    padding: 10px 0;
+    padding: 100px 1000;
 }
-.footer a {
-    color: #FFD750;
+.footer {
+    background: linear-gradient(to right, #664cafb5, #001596)
+    color: #FFD700;
     text-decoration: none;
+    font-weight: bold;
+    text-align: center;
 }
