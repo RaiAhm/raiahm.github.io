@@ -1,3 +1,4 @@
+/* General Reset */
 body, h1, h2, p {
     margin: 0;
     padding: 0;
@@ -72,7 +73,7 @@ body {
 .contact {
     background: linear-gradient(to right, #664cafb5, #001596);
     color: #fff;
-    padding: 50px 3px;
+    padding: 50px 20px; /* Adjust padding here */
     text-align: center;
 }
 .contact .btn {
@@ -83,9 +84,10 @@ body {
     font-weight: bold;
     border-radius: 6px;
     margin-top: 15px; /* Adjust this value as needed to move the button lower */
-    display: inline-block; /* Ensures margin is applied properly */
+    display: inline-block;
 }
-}/* Tech Stack Section */
+
+/* Tech Stack Section */
 .tech-stack {
     background: #f9f9f9; /* Light background to contrast with portfolio */
     padding: 50px 20px;
@@ -97,24 +99,20 @@ body {
     color: #333;
     text-align: center;
     text-decoration: none;
- 
 }
 .tech-stack p {
     margin-bottom: 30px;
     font-size: 1.2em;
     color: #666;
-   
-    
 }
 .tech-stack-images {
     display: flex;
-    background: #333333333;
     justify-content: center;
     align-items: center;
     gap: 20px;
-    flex-wrap: wrap; 
-     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 7px;/* Ensure it adjusts for smaller screens */
+    flex-wrap: wrap;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 7px; /* Optional: for rounded corners */
 }
 .tech-stack-images img {
     width: 100px; /* Adjust size as needed */
@@ -127,18 +125,18 @@ body {
     transform: scale(1.1); /* Slight zoom effect on hover */
 }
 
-}
 /* Footer */
 .footer {
     background: linear-gradient(to right, #664cafb5, #001596);
     color: #fff;
     text-align: center;
-    padding: 100px 1000;
+    padding: 100px 20px; /* Adjust padding to something more reasonable */
 }
 .footer {
-    background: linear-gradient(to right, #664cafb5, #001596)
+    background: linear-gradient(to right, #664cafb5, #001596);
     color: #FFD700;
     text-decoration: none;
     font-weight: bold;
     text-align: center;
 }
+
